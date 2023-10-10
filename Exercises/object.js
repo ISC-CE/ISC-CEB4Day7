@@ -4,9 +4,15 @@ let Person = {
     name: "Rajeev",
     age: 25,
 
-    great: function(){
+    getName: function(){
         console.log("Hello, my name is ", this.name);
+    },
+
+    getAge: function(){
+        console.log("Hello, my age is ", this.age);
     }
+
 };
 
-Person.great();
+Person.getName();
+Person.getAge();
