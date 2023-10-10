@@ -1,6 +1,6 @@
 // Incorrect Code:
-let a = 5
-let b = 10
+let a = 5;
+let b = 10;
 console.log(a + b);
 
 // Issue: Missing semicolons.
