@@ -3,7 +3,7 @@ let obj = {
     name: "Bob",
     age: 25
   };
-  console.log(obj.Name);
+  console.log(obj.name);
   
   // Issue: Incorrect case in property name.
   

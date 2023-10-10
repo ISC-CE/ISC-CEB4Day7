@@ -2,6 +2,6 @@
 function greet(name) {
   console.log("Hello, " + name);
 }
-greet("Alice"
+greet("Alice");
 
 // Issue: Missing closing parenthesis on function call.
