@@ -14,4 +14,4 @@ let Person ={
 };
 
 Person.greet();
-Person.age()
+Person.sayMyAge();
