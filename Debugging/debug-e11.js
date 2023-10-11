@@ -1,7 +1,7 @@
 // Incorrect Code:
 async function fetchData() {
-    let response = fetch('https://api.example.com/data');
-    let data = response.json();
+    let response = await fetch('https://api.example.com/data');
+    let data = await response.json();
     console.log(data);
   }
   fetchData();
