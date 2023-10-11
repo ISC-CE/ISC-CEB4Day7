@@ -5,6 +5,8 @@ function factorial(n) {
     }
     return n * factorial(n - 1);
   }
+
+  // factorial();
   
   // Issue: Base case should return 1, not 0.
   

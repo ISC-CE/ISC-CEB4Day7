@@ -1,5 +1,5 @@
 // Incorrect Code:
-document.getElementById('myButton').addEventlistener('click', function() {
+document.getElementById('myButton').addEventListener('click', function() {
     console.log('Button clicked!');
   });
   
